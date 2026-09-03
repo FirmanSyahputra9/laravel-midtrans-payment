@@ -118,7 +118,7 @@ Example Sandbox card:
 ```text
 Card Number     : 4811 1111 1111 1114
 CVV             : 123
-Expiration Date : Expiration Date : <?php echo now()->format('m/y'); ?>
+Expiration Date : now()->format('m/y')
 OTP / 3DS       : 112233
 ```
 
