@@ -116,9 +116,10 @@ This project uses the Midtrans Sandbox environment, so transactions do not use r
 Example Sandbox card:
 
 ```text
-Card Number : 4811 1111 1111 1114
-CVV         : 123
-OTP / 3DS   : 112233
+Card Number     : 4811 1111 1111 1114
+CVV             : 123
+Expiration Date : Now()->format('MM/YY')
+OTP / 3DS       : 112233
 ```
 
 The test credentials above are intended for Midtrans Sandbox testing only.
